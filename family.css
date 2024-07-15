@@ -17,7 +17,6 @@ body {
     flex-direction: column;
     min-height: 100vh;
 }
-
 body::before {
     content: "";
     position: absolute;
@@ -41,12 +40,10 @@ header {
     padding: 1rem 5%;
     background-color: rgba(0, 0, 0, 0.5);
 }
-
 .logo-container {
     display: flex;
     align-items: center;
 }
-
 .logo {
     height: 80px;
     margin-right: 20px;
@@ -109,7 +106,7 @@ header {
     color: white;
     border-radius: 10px;
     padding: 2rem;
-    width: 90%; /* Adjust the width as per your preference */
+    width: 90%; 
     max-width: 800px; /* Set a max-width to prevent it from getting too wide on larger screens */
     margin: 20px auto; /* Center the form container and provide some margin */
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */

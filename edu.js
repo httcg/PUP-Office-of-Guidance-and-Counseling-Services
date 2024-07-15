@@ -1,19 +1,17 @@
-import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.3/firebase-app.js"
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.3/firebase-app.js"   // firebase database
 import { getDatabase, ref, push } from "https://www.gstatic.com/firebasejs/10.12.3/firebase-database.js";
  
 const appSettings = {
     databaseURL: "https://webdevform-default-rtdb.firebaseio.com/"
 }
-const app = initializeApp(appSettings);
-const database = getDatabase(app);
+const app = initializeApp(appSettings); // database initialization
+const database = getDatabase(app); 
 const personalinfoInDB = ref(database, "personalinfo");
 const submitButton2 = document.getElementById("submitform2");
 
 submitButton2.addEventListener("click", function(event) {
     event.preventDefault();
-
     const educationRows = document.getElementById("educationRows").children;
-
     // oop through each educational row
     for (let i = 0; i < educationRows.length; i++) {
         const educlevelField = educationRows[i].querySelector(`[name^="educlevel-"]`);
@@ -27,7 +25,6 @@ submitButton2.addEventListener("click", function(event) {
 
             // unique ID based on educlevel, school, and schoolstat
             const uniqueId = `${educinputValue1}_${educinputValue2}_${educinputValue3}`;
-
             const educationalInfoRef = ref(database, `educational info/${uniqueId}`);
             push(educationalInfoRef, {
                 educlevel: educinputValue1,

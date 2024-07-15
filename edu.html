@@ -28,46 +28,23 @@
 
       <section id="form-section" class="form-section">
         <div class="form-container">
-          <form
-            id="myForm"
-          ></form>
-          <h3>EDUCATIONAL BACKGROUND</h3>
-
-          <div id="educationRows"></div>
-
-          <div class="form-row">
-            <button
-              type="button"
-              class="add-button"
-              onclick="addEducationRow()"
-            >
-              Add Education
-            </button>
-          </div>
-
-          <div class="form-row">
-            <button
-              type="previous"
-              class="previous-btn"
-              onclick="window.location.href='personal.html'"
-            >Previous
-            </button>
-            <button 
-            type="submit"
-            id="submitform2"
-            >Submit and Continue
-          </button>
+          <form id="myForm">
+            <h3>EDUCATIONAL BACKGROUND</h3>
+            <div id="educationRows"></div>
+            <div class="form-row">
+              <button type="button" class="add-button" onclick="addEducationRow()"> Add Education</button>
+            </div>
+            <div class="form-row">
+            <button type="submit" id="submitform2">Submit and Continue</button>
           </div>
         </div>
       </section>
     </div>
-
     <script>
       function addEducationRow() {
         const educationRows = document.getElementById("educationRows");
         const newRow = document.createElement("div");
         newRow.classList.add("form-row");
-        
         const uniqueId = Date.now(); 
         newRow.innerHTML = 
         `<div class="input-group">
@@ -92,21 +69,15 @@
           <input type="radio" id="private-${uniqueId}" class="school-stat" name="school-stat-${uniqueId}" value="private" required />
         </div>
         <button type="button" class="delete-button" onclick="deleteRow(this)">Delete</button>
-      `;
-
-  educationRows.appendChild(newRow);
-}
-
-          function deleteRow(button) {
-            const row = button.parentElement;
-            row.remove();
-          }
-    </script>
-
-    <footer class="footer">
-      <p>
-        &copy; 2024 PUP Office of Counseling and Psychological Services. All
-        Rights Reserved.
+      `;educationRows.appendChild(newRow);
+      }function deleteRow(button) {
+        const row = button.parentElement;
+        row.remove();
+      }
+      </script>
+      </form>
+      <footer class="footer">
+        <p>&copy; 2024 PUP Office of Counseling and Psychological Services. All Rights Reserved.
       </p>
     </footer>
   </body>
