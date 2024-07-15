@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PUP Guidance Office of Counseling and Psychological Services</title>
+    <link rel="icon" type="image/png" href="PUPLogo.png">       
+    <link rel="stylesheet" href="family.css" />
+    <script src="family.js" type="module"></script>
+  </head>
+
+  <body>
+    <div class="content-wrapper">
+      <header>
+        <div class="logo-container">
+          <img src="PUPLogo.png" alt="PUP Logo" class="logo" />
+          <div class="text-container">
+            <h4 class="name">Polytechnic University of the Philippines</h4>
+            <p class="tagline">The Country's 1st Polytechnic University</p>
+          </div>
+        </div>
+        <ul class="navmenu">
+          <li><a href="homepage.html" class="nav-link">Home</a></li>
+          <li><a href="guidance.html" class="nav-link">Guidance</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </header>
+
+      <section id="form-section" class="form-section">
+        <div class="form-container">
+          <form id="myForm" ></form>
+              <h3>FAMILY BACKGROUND</h3>
+            <!-- Father's Information -->
+            <div class="form-row">
+              <div class="input-group">
+                <label for="father-name">Name of father:</label>
+                <input
+                  type="text"
+                  id="fathername"
+                  name="fathername"
+                  placeholder="ex. Dela Cruz, Juan A."
+                  required
+                />
+              </div>
+              <div class="input-group">
+                <label for="father-age">Age:</label>
+                <input
+                  type="number"
+                  id="fatherage"
+                  name="fatherage"
+                  min="0"
+                  max="100"
+                  required
+                />
+              </div>
+              <div class="input-group">
+                <label>Living:</label>
+                <div class="type-options">
+                  <label
+                    ><input
+                      type="radio"
+                      id="fstatus"
+                      name="fstatus"
+                      value="living"
+                      required
+                    />
+                    Yes</label
+                  >
+                  <label
+                    ><input 
+                    type="radio" 
+                    id="fstatus"
+                    name="fstatus" 
+                    value="deceased" />
+                    No</label
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="input-group">
+                <label for="father-educ-attainment"
+                  >Educational Attainment:</label
+                >
+                <input
+                  type="text"
+                  id="fathereducattainment"
+                  name="fathereducattainment"
+                  required
+                />
+              </div>
+              <div class="input-group">
+                <label for="father-occupation">Occupation:</label>
+                <input
+                  type="text"
+                  id="fatheroccupation"
+                  name="fatheroccupation"
+                  required
+                />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="input-group">
+                <label for="father-employer-name">Name of Employer:</label>
+                <input
+                  type="text"
+                  id="fatheremployername"
+                  name="fatheremployername"
+                  required
+                />
+              </div>
+              <div class="input-group">
+                <label for="father-employer-address"
+                  >Address of Employer:</label
+                >
+                <input
+                  type="text"
+                  id="fatheremployeraddress"
+                  name="fatheremployeraddress"
+                  required
+                />
+              </div>
+            </div>
+
+            <!-- Mother's Information -->
+            <div class="form-row">
+              <div class="input-group">
+                <label for="mother-name">Name of mother:</label>
+                <input
+                  type="text"
+                  id="mothername"
+                  name="mothername"
+                  placeholder="ex. Dela Cruz, Juan A."
+                  required
+                />
+              </div>
+              <div class="input-group">
+                <label for="mother-age">Age:</label>
+                <input
+                  type="number"
+                  id="motherage"
+                  name="motherage"
+                  min="0"
+                  max="100"
+                  required
+                />
+              </div>
+              <div class="input-group">
+                <label>Living:</label>
+                <div class="type-options">
+                  <label
+                    ><input
+                      type="radio"
+                      id="mstatus"
+                      name="mstatus"
+                      value="living"
+                      required
+                    />
+                    Yes</label
+                  >
+                  <label
+                    ><input 
+                    type="radio" 
+                    id="mstatus"
+                    name="mstatus" 
+                    value="deceased" />
+                    No</label
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="input-group">
+                <label for="mother-educ-attainment"
+                  >Educational Attainment:</label
+                >
+                <input
+                  type="text"
+                  id="mothereducattainment"
+                  name="mothereducattainment"
+                  required
+                />
+              </div>
+              <div class="input-group">
+                <label for="mother-occupation">Occupation:</label>
+                <input
+                  type="text"
+                  id="motheroccupation"
+                  name="motheroccupation"
+                  required
+                />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="input-group">
+                <label for="mother-employer-name">Name of Employer:</label>
+                <input
+                  type="text"
+                  id="motheremployername"
+                  name="motheremployername"
+                  required
+                />
+              </div>
+              <div class="input-group">
+                <label for="mother-employer-address"
+                  >Address of Employer:</label
+                >
+                <input
+                  type="text"
+                  id="motheremployeraddress"
+                  name="motheremployeraddress"
+                  required
+                />
+              </div>
+            </div>
+
+            <!-- Guardian's Information -->
+            <div class="form-row">
+              <div class="input-group">
+                <label for="guardian-name">Name of guardian:</label>
+                <input
+                  type="text"
+                  id="guardianname"
+                  name="guardianname"
+                  placeholder="ex. Dela Cruz, Juan A."
+                  required
+                />
+              </div>
+              <div class="input-group">
+                <label for="guardian-age">Age:</label>
+                <input
+                  type="number"
+                  id="guardianage"
+                  name="guardianage"
+                  min="0"
+                  max="100"
+                  required
+                />
+              </div>
+              <div class="input-group">
+                <label>Living:</label>
+                <div class="type-options">
+                  <label
+                    ><input
+                      type="radio"
+                      id="gstatus"
+                      name="gstatus"
+                      value="living"
+                      required
+                    />
+                    Yes</label
+                  >
+                  <label
+                    ><input 
+                    type="radio"
+                    id="gstatus"
+                    name="gstatus" 
+                    value="deceased" />
+                    No</label
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="input-group">
+                <label for="guardian-educ-attainment"
+                  >Educational Attainment:</label
+                >
+                <input
+                  type="text"
+                  id="guardianeducattainment"
+                  name="guardianeducattainment"
+                  required
+                />
+              </div>
+              <div class="input-group">
+                <label for="guardian-occupation">Occupation:</label>
+                <input
+                  type="text"
+                  id="guardianoccupation"
+                  name="guardianoccupation"
+                  required
+                />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="input-group">
+                <label for="guardian-employer-name">Name of Employer:</label>
+                <input
+                  type="text"
+                  id="guardianemployername"
+                  name="guardianemployername"
+                  required
+                />
+              </div>
+              <div class="input-group">
+                <label for="guardian-employer-address"
+                  >Address of Employer:</label
+                >
+                <input
+                  type="text"
+                  id="guardianemployeraddress"
+                  name="guardianemployeraddress"
+                  required
+                />
+              </div>
+            </div>
+
+            <!-- Additional Information -->
+            <h3>PARENTS MARITAL RELATIONSHIP</h3>
+            <div class="form-row">
+              <div class="input-group">
+                <label for="children-no"
+                  >Number of children in the family including yourself:</label>
+                <input
+                  type="number"
+                  id="childrenno"
+                  name="childrenno"
+                  required
+                />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="input-group">
+                <label
+                  >Is your brother/sister who is gainfully employed providing
+                  support to your:</label
+                >
+                <div class="type-options">
+                  <label
+                    ><input
+                      type="radio"
+                      id="famsupport"
+                      name="family-support"
+                      value="family"
+                    />
+                    Family</label
+                  >
+                  <label
+                    ><input
+                      type="radio"
+                      id="famsupport"
+                      name="family-support"
+                      value="studies"
+                    />
+                    Your studies</label
+                  >
+                  <label
+                    ><input
+                      type="radio"
+                      id="famsupport"
+                      name="family-support"
+                      value="own-family"
+                    />
+                    His/her own family</label
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="input-group">
+                <label for="brother-no">Number of brother/s:</label>
+                <input
+                  type="number"
+                  id="numberofbrothers"
+                  name="numberofbrothers"
+                  required
+                />
+              </div>
+              <div class="input-group">
+                <label for="sister-no">Number of sister/s:</label>
+                <input 
+                  type="number" 
+                  id="numberofsisters" 
+                  name="numberofsisters" required />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="input-group">
+                <label for="who-finances-u">Who finances your schooling?</label>
+                <input
+                  type="text"
+                  id="whofinancesu"
+                  name="whofinancesu"
+                  required
+                />
+              </div>
+            </div>
+
+            <div class="button-group">
+              <button type="button" onclick="window.location.href='edu.html'">Previous</button>
+              <button id="submitform3">Save and Continue</button>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <p>
+          &copy; 2024 Polytechnic University of the Philippines. All rights
+          reserved.
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>

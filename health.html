@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PUP Guidance Office of Counseling and Psychological Services</title>
+  <link rel="icon" type="image/png" href="PUPLogo.png">       
+  <link rel="stylesheet" href="health.css" />
+  <script src="health.js" type="module"></script>
+  <style>
+    .form-row {
+      display: flex;
+      align-items: center;
+    }
+    .form-row label {
+      margin-left: 10px; 
+    }
+  </style>
+</head>
+
+<body>
+  <div class="content-wrapper">
+    <header>
+      <div class="logo-container">
+        <a href="https://www.pup.edu.ph/"><img src="PUPLogo.png" alt="PUP Logo" class="logo" /></a>
+        <div class="text-container">
+          <h4 class="name">Polytechnic University of the Philippines</h4>
+          <p class="tagline">The Country's 1st Polytechnic University</p>
+        </div>
+      </div>
+      <ul class="navmenu">
+        <li><a href="homepage.html" class="nav-link">Home</a></li>
+        <li><a href="guidance.html" class="nav-link">Guidance</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+      </ul>
+    </header>
+
+    <section id="form-section" class="form-section">
+      <div class="form-container">
+        <div class="form-row1">
+          <form id="myForm">
+            <p>HEALTH</p>
+            <p>A. PHYSICAL</p>
+
+            <div class="form-row">
+              <p>Do you have problems with the following:</p>
+            </div>
+            <div class="form-row">
+              <input
+                type="checkbox"
+                id="visionproblem"
+                name="visionproblem"
+                value="vision-problem"
+              />
+              <label for="vision-problem">Your vision</label>
+              <label for="reason">if you do, please specify: </label>
+              <input type="text" id="reasonvision" name="reasonvision" />
+            </div>
+            <div class="form-row">
+              <input
+                type="checkbox"
+                id="hearingproblem"
+                name="hearingproblem"
+                value="hearing-problem"
+              />
+              <label for="hearing-problem">Your hearing</label>
+              <label for="reason">if you do, please specify: </label>
+              <input type="text" id="reasonhearing" name="reasonhearing" />
+            </div>
+            <div class="form-row">
+              <input
+                type="checkbox"
+                id="speechproblem"
+                name="speechproblem"
+                value="speech-problem"
+              />
+              <label for="speech-problem">Your speech</label>
+              <label for="reason">if you do, please specify: </label>
+              <input type="text" id="reasonspeech" name="reasonspeech" />
+            </div>
+            <div class="form-row">
+              <input
+                type="checkbox"
+                id="genhealthproblem"
+                name="genhealthproblem"
+                value="genhealth-problem"
+              />
+              <label for="genhealth-problem">Your general health</label>
+              <label for="reason">if you do, please specify: </label>
+              <input
+                type="text"
+                id="reasongenhealth"
+                name="reasongenhealth"
+              />
+            </div>
+
+            <br /><br />
+            <p>B. PSYCHOLOGICAL</p>
+            <div class="form-row">
+              <p>Fill up the below if you have previous consultations:</p>
+            </div>
+            <div class="form-row">
+              <p>Consulted a Psychiatrist?</p>
+              <label>
+                <input
+                  type="radio"
+                  id="psychiatrist_consulted"
+                  name="psychiatristconsulted"
+                  value="yes"
+                  
+                />
+                Yes
+              </label>
+              <label>
+                <input
+                  type="radio"
+                  id="psychiatrist_consulted"
+                  name="psychiatristconsulted"
+                  value="no"
+                  
+                />
+                No
+              </label>
+            </div>
+            <div class="form-row">
+              <p>Consulted a Psychologist?</p>
+              <label>
+                <input
+                  type="radio"
+                  id="psychologist_consulted"
+                  name="psychologist-consulted"
+                  value="yes"
+                  
+                />
+                Yes
+              </label>
+              <label>
+                <input
+                  type="radio"
+                  id="psychologist_consulted"
+                  name="psychologist-consulted"
+                  value="no"
+                  
+                />
+                No
+              </label>
+            </div>
+            <div class="form-row">
+              <p>Consulted a Counselor?</p>
+              <label>
+                <input
+                  type="radio"
+                  id="counselor_consulted"
+                  name="counselor_-consulted"
+                  value="yes"
+                  
+                />
+                Yes
+              </label>
+              <label>
+                <input
+                  type="radio"
+                  id="counselor_consulted"
+                  name="counselor_consulted"
+                  value="no"
+                  
+                />
+                No
+              </label>
+            </div>
+
+            <div class="form-row">
+              <label for="last-consulted">When did you last consult?</label>
+              <input
+                type="date"
+                id="lastconsulted"
+                name="lastconsulted"
+                
+              />
+            </div>
+            <div class="form-row">
+              <label for="purpose-consulted">State the purpose of consultation:</label>
+              <input
+                type="text"
+                id="purposeconsulted"
+                name="purposeconsulted"
+                required
+              />
+            </div>
+            <div class="form-row">
+              <label for="other-purpose-consult">If other, specify:</label>
+              <input
+                type="text"
+                id="otherpurposeconsult"
+                name="otherpurposeconsult"
+              />
+            </div>
+            <div class="form-row button-row">
+              <button
+                type="button"  onclick="window.location.href='family.html'">Previous
+              </button>
+            <div class="form-row">
+              <button id="submitform4">Submit and Continue</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </div>
+  <footer>
+    <p>© 2024 PUP Office of Counseling and Psychological Services. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>

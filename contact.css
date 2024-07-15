@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: url("PUP.jpg") no-repeat center center fixed;
+  background-size: cover;
+  position: relative;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 5%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 80px;
+  margin-right: 20px;
+}
+
+.name {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.tagline {
+  color: white;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 0.2rem;
+}
+
+.navmenu {
+  display: flex;
+  margin-left: auto;
+  list-style: none;
+}
+
+.navmenu li {
+  display: inline-block;
+  margin: 0 1.5%;
+  padding: 15px;
+  color: white;
+  font-weight: 500;
+}
+
+.navmenu li a {
+  text-decoration: none;
+  color: white;
+}
+
+.navmenu li:hover {
+  text-decoration: underline;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.contact-text {
+  text-align: center;
+  color: white;
+  max-width: 600px;
+  padding: 20px;
+  animation: fadeInUp 2s ease-out;
+}
+
+.contact-text h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  animation: fadeInUp 2s ease-out;
+}
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.contact-text p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.contact-text a {
+  color: white;
+  text-decoration: underline;
+}
+
+.contact-text a[href="mailto:inquire@pup.edu.ph"] {
+  color: white;
+}
+
+.contact-text a:hover {
+  color: #f7f7f2;
+}
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
+}
+
+footer p {
+    margin: 0;
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
