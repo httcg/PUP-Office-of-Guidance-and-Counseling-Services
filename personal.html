@@ -1,184 +1,318 @@
 <!DOCTYPE html>
 <html lang="en-US">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PUP Guidance, Counseling, and Testing Services</title>
-    <link rel="icon" type="image/png" href="PUPLogo.png">       
+    <link rel="icon" type="image/png" href="PUPLogo.png" />
     <link rel="stylesheet" href="personal.css" />
     <script src="personal.js" type="module"></script>
-</head>
-<body>
+  </head>
+  <body>
     <div class="content-wrapper">
-        <header>
-            <div class="logo-container">
-                <img src="PUPLogo.png" alt="PUP Logo" class="logo" />
-                <div class="text-container">
-                    <h4 class="name">Polytechnic University of the Philippines</h4>
-                    <p class="tagline">The Country's 1st Polytechnic University</p>
+      <header>
+        <div class="logo-container">
+          <img src="PUPLogo.png" alt="PUP Logo" class="logo" />
+          <div class="text-container">
+            <h4 class="name">Polytechnic University of the Philippines</h4>
+            <p class="tagline">The Country's 1st Polytechnic University</p>
+          </div>
+        </div>
+        <ul class="navmenu">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="guidance.html" class="nav-link">Guidance</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </header>
+      <section id="form-section" class="form-section">
+        <div class="form-container">
+          <div class="form-row1">
+            <form id="myForm" action="edu.html" method="get">
+              <h3>PERSONAL INFORMATION</h3>
+
+              <div class="form-row">
+                <div class="input-group">
+                  <label for="name">Fullname:</label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="ex. Dela Cruz, Juan A."
+                    required
+                  />
                 </div>
-            </div>
-            <ul class="navmenu">
-                <li><a href="index.html" class="nav-link">Home</a></li>
-                <li><a href="guidance.html" class="nav-link">Guidance</a></li>
-                <li><a href="contact.html" class="nav-link">Contact</a></li>
-            </ul>
-        </header>
-        <section id="form-section" class="form-section">
-            <div class="form-container">
-                <div class="form-row1">
-                    <form id="myForm" action="edu.html" method="get">
-                        <h3>PERSONAL INFORMATION</h3>
-
-                        <div class="form-row">
-                            <div class="input-group">
-                                <label for="name">Fullname:</label>
-                                <input type="text" id="name" name="name" placeholder="ex. Dela Cruz, Juan A." required>
-                            </div>
-                            <div class="input-group">
-                                <label for="age">Age:</label>
-                                <input type="number" id="age" name="age" min="0" max="100" required>
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <div class="input-group">
-                                <label>Gender:</label>
-                                <div class="gender-options">
-                                    <label>
-                                        <input type="radio" id="gender" name="gender" value="male" required> Male
-                                    </label>
-                                    <label>
-                                        <input type="radio" id="gender" name="gender" value="female"> Female
-                                    </label>
-                                    <label>
-                                        <input type="radio" id="gender" name="gender" value="other"> Preferred not to say
-                                    </label>
-                                </div>
-                            </div>
-                            <div class="input-group">
-                                <label for="civilstats">Civil Status:</label>
-                                <input type="text" id="civilstats" name="civilstats" required>
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <div class="input-group">
-                                <label for="program">Program:</label>
-                                <input type="text" id="program" name="program" required>
-                            </div>
-                            <div class="input-group">
-                                <label for="year">Year:</label>
-                                <input type="text" id="year" name="year" min="1" max="5" required>
-                            </div>
-                            <div class="input-group">
-                                <label for="section">Section:</label>
-                                <input type="text" id="section" name="section" required>
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <div class="input-group">
-                                <label for="birthday">Birthdate:</label>
-                                <input type="date" id="birthday" name="birthday" required>
-                            </div>
-                            <div class="input-group">
-                                <label for="birthplace">Place of Birth:</label>
-                                <input type="text" id="birthplace" name="birthplace" required>
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <div class="input-group">
-                                <label for="email">Email address:</label>
-                                <input type="email" id="email" name="email" required>
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <div class="input-group">
-                                <label for="cityadd">City Address:</label>
-                                <input type="text" id="cityadd" name="cityadd" required>
-                            </div>
-                            <div class="input-group">
-                                <label for="provincialadd">Provincial Address:</label>
-                                <input type="text" id="provincialadd" name="provincialadd" required>
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <div class="input-group">
-                                <label for="height">Height:</label>
-                                <input type="text" id="height" name="height" placeholder="in cm" required>
-                            </div>
-                            <div class="input-group">
-                                <label for="weight">Weight:</label>
-                                <input type="text" id="weight" name="weight" placeholder="in kg" required>
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <div class="input-group">
-                                <label for="complexion">Complexion:</label>
-                                <input type="text" id="complexion" name="complexion">
-                            </div>
-                            <div class="input-group">
-                                <label for="telephone">Telephone no.:</label>
-                                <input type="number" id="telephone" name="telephone" required>
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <div class="input-group">
-                                <label for="HSgwa">Highschool general weighted average:</label>
-                                <input type="text" id="HSgwa" name="HSgwa" required>
-                            </div>
-                            <div class="input-group">
-                                <label for="religion">Religion:</label>
-                                <input type="text" id="religion" name="religion" required>
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <p>If working, please indicate the name and the address of the employer:</p>
-                        </div>
-                        <div class="form-row">
-                            <div class="input-group">
-                                <label for="emp-name">Fullname:</label>
-                                <input type="text" id="empname" name="empname" placeholder="ex. Dela Cruz, Juan A.">
-                            </div>
-                            <div class="input-group">
-                                <label for="emp-add">Address:</label>
-                                <input type="text" id="empadd" name="empadd">
-                            </div>
-                        </div>
-
-                        <div class="form-row">
-                            <p>Person to be contacted in case of accident or serious illness:</p>
-                        </div>
-
-                        <div class="form-row">
-                            <div class="input-group">
-                                <label for="contact-name">Fullname:</label>
-                                <input type="text" id="contactname" name="contactname" placeholder="ex. Dela Cruz, Juan A." required>
-                            </div>
-                            <div class="input-group">
-                                <label for="contact-add">Address:</label>
-                                <input type="text" id="contactadd" name="contactadd" required>
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <div class="input-group">
-                                <label for="relationship">Relationship:</label>
-                                <input type="text" id="relationship" name="relationship" required>
-                            </div>
-                            <div class="input-group">
-                                <label for="contact-no">Contact no.:</label>
-                                <input type="number" id="contactno" name="contactno" required>
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <button type="button" onclick="window.location.href='guidance.html'">Cancel</button>
-                            <button type="submit" id="submitform">Save and Continue</button>
-                        </div>
-                    </form>
+                <div class="input-group">
+                  <label for="age">Age:</label>
+                  <input
+                    type="number"
+                    id="age"
+                    name="age"
+                    min="0"
+                    max="100"
+                    required
+                  />
                 </div>
-            </div>
-        </section>
+              </div>
+              <div class="form-row">
+                <div class="input-group">
+                  <label>Gender:</label>
+                  <div class="gender-options">
+                    <label>
+                      <input
+                        type="radio"
+                        id="gender"
+                        name="gender"
+                        value="male"
+                        required
+                      />
+                      Male
+                    </label>
+                    <label>
+                      <input
+                        type="radio"
+                        id="gender"
+                        name="gender"
+                        value="female"
+                      />
+                      Female
+                    </label>
+                    <label>
+                      <input
+                        type="radio"
+                        id="gender"
+                        name="gender"
+                        value="other"
+                      />
+                      Preferred not to say
+                    </label>
+                  </div>
+                </div>
+                <div class="input-group">
+                  <label for="civilstats">Civil Status:</label>
+                  <select id="civilstats" name="civilstats" required>
+                    <option value="single">Single</option>
+                    <option value="married">Married</option>
+                    <option value="widowed">Widowed</option>
+                    <option value="separated">Separated</option>
+                    <option value="divorced">Divorced</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="input-group">
+                  <label for="program">Program:</label>
+                  <input type="text" id="program" name="program" required />
+                </div>
+                <div class="input-group">
+                  <label for="year">Year:</label>
+                  <input
+                    type="text"
+                    id="year"
+                    name="year"
+                    min="1"
+                    max="5"
+                    required
+                  />
+                </div>
+                <div class="input-group">
+                  <label for="section">Section:</label>
+                  <input type="text" id="section" name="section" required />
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="input-group">
+                  <label for="birthday">Birthdate:</label>
+                  <input type="date" id="birthday" name="birthday" required />
+                </div>
+                <div class="input-group">
+                  <label for="birthplace">Place of Birth:</label>
+                  <input
+                    type="text"
+                    id="birthplace"
+                    name="birthplace"
+                    required
+                  />
+                </div>
+              </div>
+               <div class="form-row">
+                <div class="input-group">
+                  <label for="email">Email address:</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="example@email.com"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="input-group">
+                  <label for="cityadd">City Address:</label>
+                  <input type="text" id="cityadd" name="cityadd" required />
+                </div>
+                <div class="input-group">
+                  <label for="provincialadd">Provincial Address:</label>
+                  <input
+                    type="text"
+                    id="provincialadd"
+                    name="provincialadd"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="input-group">
+                  <label for="height">Height:</label>
+                  <input
+                    type="number"
+                    id="height"
+                    name="height"
+                    placeholder="in cm"
+                    required
+                  />
+                </div>
+                <div class="input-group">
+                  <label for="weight">Weight:</label>
+                  <input
+                    type="number"
+                    id="weight"
+                    name="weight"
+                    placeholder="in kg"
+                    required
+                  />
+                </div>
+              </div>
+              </div>
+               <div class="form-row">
+                <div class="input-group">
+                  <label for="complexion">Complexion:</label>
+                  <select id="complexion" name="complexion" required>
+                    <option value="fair">Fair</option>
+                    <option value="light">Light</option>
+                    <option value="medium">Medium</option>
+                    <option value="brown">Brown</option>
+                    <option value="dark">Dark</option>
+                    <option value="other">Other</option>
+                  </select>
+                </div>
+                <div class="input-group">
+                  <label for="telephone">Phone no.:</label>
+                  <input
+                    type="number"
+                    id="telephone"
+                    name="telephone"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="input-group">
+                  <label for="HSgwa"
+                    >Highschool general weighted average:</label
+                  >
+                  <input type="text" id="HSgwa" name="HSgwa" required />
+                </div>
+                <div class="input-group">
+                  <label for="religion">Religion:</label>
+                  <select id="religion" name="religion" required>
+                    <option value="catholic">Catholic</option>
+                    <option value="christian">Christian</option>
+                    <option value="muslim">Muslim</option>
+                    <option value="hindu">Hindu</option>
+                    <option value="buddhist">Buddhist</option>
+                    <option value="other">Other</option>
+                  </select>
+                </div></div>
+              <div class="form-row">
+                <p>
+                  If working, please indicate the name and the address of the
+                  employer:
+                </p>
+              </div>
+              <div class="form-row">
+                <div class="input-group">
+                  <label for="emp-name">Fullname:</label>
+                  <input
+                    type="text"
+                    id="empname"
+                    name="empname"
+                    placeholder="ex. Dela Cruz, Juan A."
+                  />
+                </div>
+                <div class="input-group">
+                  <label for="emp-add">Address:</label>
+                  <input type="text" id="empadd" name="empadd" />
+                </div>
+              </div>
+
+              <div class="form-row">
+                <p>
+                  Person to be contacted in case of accident or serious illness:
+                </p>
+              </div>
+
+              <div class="form-row">
+                <div class="input-group">
+                  <label for="contact-name">Fullname:</label>
+                  <input
+                    type="text"
+                    id="contactname"
+                    name="contactname"
+                    placeholder="ex. Dela Cruz, Juan A."
+                    required
+                  />
+                </div>
+                <div class="input-group">
+                  <label for="contact-add">Address:</label>
+                  <input
+                    type="text"
+                    id="contactadd"
+                    name="contactadd"
+                    required
+                  />
+                </div>
+              </div>
+               <div class="form-row">
+                <div class="input-group">
+                  <label for="relationship">Relationship:</label>
+                  <select id="relationship" name="relationship" required>
+                    <option value="parent">Parent</option>
+                    <option value="sibling">Sibling</option>
+                    <option value="relative">Relative</option>
+                    <option value="friend">Friend</option>
+                    <option value="other">Other</option>
+                  </select>
+                </div>
+                <div class="input-group">
+                  <label for="contactno">Contact no.:</label>
+                  <input
+                    type="number"
+                    id="contactno"
+                    name="contactno"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="form-row">
+                <button
+                  type="button"
+                  onclick="window.location.href='guidance.html'"
+                >
+                  Cancel
+                </button>
+                <button type="submit" id="submitform">Save and Continue</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
     </div>
     <footer>
-        <p>© 2024 PUP Office of Counseling and Psychological Services. All Rights Reserved.</p>
+      <p>
+        © 2024 PUP Office of Counseling and Psychological Services. All Rights
+        Reserved.
+      </p>
     </footer>
-</body>
+  </body>
 </html>
