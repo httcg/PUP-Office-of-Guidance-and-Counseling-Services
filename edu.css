@@ -99,24 +99,33 @@ header {
   animation: slideDown 0.5s;
 }
 @keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 @keyframes slideDown {
-  from { transform: translateY(-50px); opacity: 0; }
-  to { transform: translateY(0); opacity: 1; }
+  from {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
-
 .form-container {
-    background-color: rgba(170, 91, 91, 0.86);
-    color: white;
-    border-radius: 10px;
-    padding: 2rem;
-    width: 90%; /* Adjust the width as per your preference */
-    max-width: 800px; /* Set a max-width to prevent it from getting too wide on larger screens */
-    margin: 20px auto; /* Center the form container and provide some margin */
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+  background-color: rgba(170, 91, 91, 0.86);
+  color: white;
+  border-radius: 10px;
+  padding: 2rem;
+  width: 90%; /* Adjust the width as per your preference */
+  max-width: 800px; /* Set a max-width to prevent it from getting too wide on larger screens */
+  margin: 20px auto; /* Center the form container and provide some margin */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
 }
 
 .form-container h2,
@@ -206,30 +215,7 @@ header {
   background-color: rgba(211, 114, 114, 0.86);
 }
 
-button[type="submit"],
-button[type="previous"] {
-  background-color: rgba(211, 114, 114, 0.86);
-  color: white;
-  padding: 0.7rem 1.5rem;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  display: block;
-}
-
-button[type="submit"]:hover {
-  background-color: rgba(228, 135, 135, 0.86);
-}
-
-.previous-button {
-  align-self: flex-start; /* Align to the left */
-}
-
-.continue-button {
-  align-self: flex-end; /* Align to the right */
-}
-
-.add-button {
+button[type="submit"] {
   background-color: rgba(211, 114, 114, 0.86);
   color: white;
   padding: 0.7rem 1.5rem;
@@ -238,26 +224,28 @@ button[type="submit"]:hover {
   cursor: pointer;
   display: block;
   margin: 0 auto;
-  margin-top: 20px;
-  margin-bottom: 0px;
-  width: 190px;
+  margin-top: 0px;
 }
 
-.add-button:hover {
+button[type="submit"]:hover {
   background-color: rgba(228, 135, 135, 0.86);
 }
 
-.delete-button {
+.add-button, .delete-button {
   background-color: rgba(211, 114, 114, 0.86);
   color: white;
   padding: 0.7rem 1.5rem;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  margin-left: auto;
+  display: block;
+  margin: 0 auto;
+  margin-top: 60px;
+  margin-bottom: 0px;
+  width: 190px;
 }
 
-.delete-button:hover {
+.add-button:hover {
   background-color: rgba(228, 135, 135, 0.86);
 }
 

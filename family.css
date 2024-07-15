@@ -17,6 +17,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
 }
+
 body::before {
     content: "";
     position: absolute;
@@ -40,10 +41,12 @@ header {
     padding: 1rem 5%;
     background-color: rgba(0, 0, 0, 0.5);
 }
+
 .logo-container {
     display: flex;
     align-items: center;
 }
+
 .logo {
     height: 80px;
     margin-right: 20px;
@@ -84,6 +87,7 @@ header {
 .navmenu li:hover {
     text-decoration: underline;
 }
+
 .form-section {
     display: flex;
     justify-content: center;
@@ -106,7 +110,7 @@ header {
     color: white;
     border-radius: 10px;
     padding: 2rem;
-    width: 90%; 
+    width: 90%; /* Adjust the width as per your preference */
     max-width: 800px; /* Set a max-width to prevent it from getting too wide on larger screens */
     margin: 20px auto; /* Center the form container and provide some margin */
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
@@ -176,8 +180,7 @@ header {
 
 .button-group {
     display: flex;
-    justify-content: space-between; /* Align buttons at the ends */
-    align-items: flex-end; /* Align buttons at the bottom */
+    justify-content: center; /* Align buttons at the center */
     gap: 20px; /* Space between buttons */
     margin-top: 20px;
 }
@@ -189,6 +192,7 @@ header {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    width: 190px; /* Fixed width for consistency */
 }
 
 .button-group button:hover {

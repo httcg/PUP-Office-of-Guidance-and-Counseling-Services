@@ -90,3 +90,36 @@ function showConfirmationDialog(event) {
   navLinks.forEach(function(link) {
     link.addEventListener('click', showConfirmationDialog);
   });
+
+  function toggleConsultationFields() {
+    const psychiatristYes = document.getElementById(
+      "psychiatrist_consulted_yes"
+    );
+    const psychologistYes = document.getElementById(
+      "psychologist_consulted_yes"
+    );
+    const counselorYes = document.getElementById("counselor_consulted_yes");
+    const lastConsulted = document.getElementById("lastconsulted");
+    const purposeConsulted = document.getElementById("purposeconsulted");
+    const otherPurposeConsult = document.getElementById(
+      "otherpurposeconsult"
+    );
+
+    lastConsulted.disabled = !(
+      psychiatristYes.checked ||
+      psychologistYes.checked ||
+      counselorYes.checked
+    );
+
+    purposeConsulted.disabled = !(
+      psychiatristYes.checked ||
+      psychologistYes.checked ||
+      counselorYes.checked
+    );
+
+    otherPurposeConsult.disabled = !(
+      psychiatristYes.checked ||
+      psychologistYes.checked ||
+      counselorYes.checked
+    );
+  }

@@ -190,4 +190,8 @@ footer p {
   }
 }
 
-
+.form-row.button-row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px; 
+}
