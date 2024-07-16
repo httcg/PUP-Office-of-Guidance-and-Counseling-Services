@@ -76,27 +76,27 @@ submitButton3.addEventListener("click", function(event) {
     const fstatus = ref(database, "family info/fatherinfo");
     const fathereducattainment = ref(database, "family info/fatherinfo");
     const fatheroccupation = ref(database, "family info/fatherinfo");
-    const fatheremployername = ref(database, "family info/fatherinfo");
-    const fatheremployeraddress = ref(database, "family info/fatherinfo");
+    const fatheremployername = ref(database, "family info/fatherinfo/employer");
+    const fatheremployeraddress = ref(database, "family info/fatherinfo/employer");
     const mothername = ref(database, "family info/mother info");
     const motherage = ref(database, "family info/mother info");
     const mstatus = ref(database, "family info/mother info");
     const mothereducattainment = ref(database, "family info/mother info");
     const motheroccupation = ref(database, "family info/mother info");
-    const motheremployername = ref(database, "family info/mother info");
-    const motheremployeraddress = ref(database, "family info/mother info");
+    const motheremployername = ref(database, "family info/mother info/employer");
+    const motheremployeraddress = ref(database, "family info/mother info/employer");
     const guardianname = ref(database, "family info/guardian info");
     const guardianage = ref(database, "family info/guardian info");
     const gstatus = ref(database, "family info/guardian info");
     const guardianeducattainment = ref(database, "family info/guardian info");
     const guardianoccupation = ref(database, "family info/guardian info");
-    const guardianemployername = ref(database, "family info/guardian info");
-    const guardianemployeraddress = ref(database, "family info/guardian info");
-    const childrenno = ref(database, "family info/family ");
+    const guardianemployername = ref(database, "family info/guardian info/employer");
+    const guardianemployeraddress = ref(database, "family info/guardian info/employer");
+    const childrenno = ref(database, "family info/family/no of child ");
     const famsupport = ref(database, "family info/family");
-    const numberofbrothers = ref(database, "family info/family");
-    const numberofsisters = ref(database, "family info/family");
-    const whofinancesu = ref(database, "family info/family");
+    const numberofbrothers = ref(database, "family info/family/no of child/ no of brothers");
+    const numberofsisters = ref(database, "family info/family/no of child/ no of sisters");
+    const whofinancesu = ref(database, "family info/family/finance by");
 
    push(fathername, inputValue1)
    push(fatherage, inputValue2)
