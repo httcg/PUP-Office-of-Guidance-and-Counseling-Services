@@ -1,0 +1,253 @@
+{
+  "educational info": {
+    "elementary_San Antonio Elementary School_public": {
+      "-O1uA_OBI9hNtRLndydB": {
+        "educlevel": "elementary",
+        "school": "San Antonio Elementary School",
+        "schoolstat": "public"
+      }
+    },
+    "junior-high_Judge Juan Luna HighSchool_public": {
+      "-O1uA_ODMvHkNr3cQbIX": {
+        "educlevel": "junior-high",
+        "school": "Judge Juan Luna HighSchool",
+        "schoolstat": "public"
+      }
+    },
+    "senior-high_Polytechnic University of the Philippines_public": {
+      "-O1uA_ODMvHkNr3cQbIY": {
+        "educlevel": "senior-high",
+        "school": "Polytechnic University of the Philippines",
+        "schoolstat": "public"
+      }
+    }
+  },
+  "family info": {
+    "family": {
+      "-O1uAc1ZTmUbdkcejGJS": "family",
+      "finance by": {
+        "-O1uAc1ZTmUbdkcejGJV": "parents"
+      },
+      "no of child": {
+        " no of brothers": {
+          "-O1uAc1ZTmUbdkcejGJT": "1"
+        },
+        " no of sisters": {
+          "-O1uAc1ZTmUbdkcejGJU": "0"
+        }
+      },
+      "no of child ": {
+        "-O1uAc1Y7RWuQf4lQ80_": "2"
+      }
+    },
+    "fatherinfo": {
+      "-O1uAc1THAV295CAuzDT": "Teresa, Juan Andres",
+      "-O1uAc1UzEOyh77q81G3": "55",
+      "-O1uAc1UzEOyh77q81G4": "living",
+      "-O1uAc1UzEOyh77q81G5": "Collage Graduate",
+      "-O1uAc1UzEOyh77q81G6": "Engineer",
+      "employer": {
+        "-O1uAc1VWGbaPvTIwj2H": "Mario Luigi",
+        "-O1uAc1VWGbaPvTIwj2I": "Sampaloc Manila"
+      }
+    },
+    "guardian info": {
+      "-O1uAc1XWaUm014Cb_YE": "Teresa, Maria Makiling",
+      "-O1uAc1XWaUm014Cb_YF": "51",
+      "-O1uAc1XWaUm014Cb_YG": "living",
+      "-O1uAc1XWaUm014Cb_YH": "Highschool",
+      "-O1uAc1Y7RWuQf4lQ80X": "Selfemployed",
+      "employer": {
+        "-O1uAc1Y7RWuQf4lQ80Y": "n/a",
+        "-O1uAc1Y7RWuQf4lQ80Z": "n/a"
+      }
+    },
+    "mother info": {
+      "-O1uAc1VWGbaPvTIwj2J": "Teresa, Maria Makiling",
+      "-O1uAc1VWGbaPvTIwj2K": "51",
+      "-O1uAc1VWGbaPvTIwj2L": "living",
+      "-O1uAc1WAuci0Z1quRv4": "Highschool",
+      "-O1uAc1WAuci0Z1quRv5": "Selfemployed",
+      "employer": {
+        "-O1uAc1WAuci0Z1quRv6": "n/a",
+        "-O1uAc1WAuci0Z1quRv7": "n/a"
+      }
+    }
+  },
+  "interest info": {
+    "athletics": {
+      "-O1uAjNp4Z9NbEsFMRXy": "athletics"
+    },
+    "chessclub": {
+      "-O1uAjNrx28O8eu-v7PM": "chessclub"
+    },
+    "debateclub": {
+      "-O1uAjNjHtBUz7NsH_Kx": "debate-club"
+    },
+    "dramatics": {
+      "-O1uAjNqJBYZ9PYzqWQ3": "dramatics"
+    },
+    "englishclub": {
+      "-O1uAjNjHtBUz7NsH_Kw": "english-club"
+    },
+    "favesubject": {
+      "-O1uAjNlIbd0sQFnVhu-": "literature, history, and science"
+    },
+    "geeclub": {
+      "-O1uAjNqJBYZ9PYzqWQ2": "geeclub"
+    },
+    "hobby1": {
+      "-O1uAjNmdM-qjsiDsmPm": "journaling"
+    },
+    "hobby10": {
+      "-O1uAjNp4Z9NbEsFMRXx": "drawing"
+    },
+    "hobby2": {
+      "-O1uAjNmdM-qjsiDsmPn": "singing"
+    },
+    "hobby3": {
+      "-O1uAjNmdM-qjsiDsmPo": "dancing"
+    },
+    "hobby4": {
+      "-O1uAjNmdM-qjsiDsmPp": "watching"
+    },
+    "hobby5": {
+      "-O1uAjNmdM-qjsiDsmPq": "eating"
+    },
+    "hobby6": {
+      "-O1uAjNnzU9gD8I3W-Me": "breathing"
+    },
+    "hobby7": {
+      "-O1uAjNnzU9gD8I3W-Mf": "jumping"
+    },
+    "hobby8": {
+      "-O1uAjNom2eoArdxTQLM": "laughing"
+    },
+    "hobby9": {
+      "-O1uAjNom2eoArdxTQLN": "cooking"
+    },
+    "leastfavesubject": {
+      "-O1uAjNlIbd0sQFnVhu0": "artificial intelligence"
+    },
+    "mathclub": {
+      "-O1uAjNjHtBUz7NsH_Kv": "math-club"
+    },
+    "member": {
+      "-O1uAjNrx28O8eu-v7PO": "member"
+    },
+    "officer": {
+      "-O1uAjNrx28O8eu-v7PN": "officer"
+    },
+    "otherclub": {
+      "-O1uAjNk2qxZfiJmTBx_": "other-club"
+    },
+    "otherclubtext": {
+      "-O1uAjNk2qxZfiJmTBxa": ""
+    },
+    "otherinterest": {
+      "-O1uAjNrx28O8eu-v7PK": "otherinterest"
+    },
+    "otherinteresttext": {
+      "-O1uAjNrx28O8eu-v7PL": "Silent Killer Club"
+    },
+    "otherpost": {
+      "-O1uAjNsv4FncFWzMdn2": "otherpost"
+    },
+    "otherposttext": {
+      "-O1uAjNsv4FncFWzMdn3": ""
+    },
+    "quizzerclub": {
+      "-O1uAjNlIbd0sQFnVhtz": "quizzer-club"
+    },
+    "religiousorg": {
+      "-O1uAjNqJBYZ9PYzqWQ5": "religiousorg"
+    },
+    "scienceclub": {
+      "-O1uAjNk2qxZfiJmTBxZ": "science-club"
+    },
+    "scouting": {
+      "-O1uAjNqJBYZ9PYzqWQ4": "scouting"
+    },
+    "speechclub": {
+      "-O1uAjNk2qxZfiJmTBxY": "speech-club"
+    }
+  },
+  "personal info": {
+    "HSgwa": {
+      "-O1uAIAFqd1HabrT0lPw": "99"
+    },
+    "age": {
+      "-O1uAIA9CrM9uUvhtU0i": "21"
+    },
+    "birthday": {
+      "-O1uAIAC-UJ-dKMY7rsK": "2003-01-01"
+    },
+    "birthplace": {
+      "-O1uAIAC-UJ-dKMY7rsL": "Quezon City"
+    },
+    "cityadd": {
+      "-O1uAIADw00ymn1KSd1F": "#1 ABCD St. Quezon City"
+    },
+    "civilstats": {
+      "-O1uAIAAuDDAhNfSS0Iy": "single"
+    },
+    "complexion": {
+      "-O1uAIAEouP1otB_gNr7": "fair"
+    },
+    "email": {
+      "-O1uAIAC-UJ-dKMY7rsM": "marialeonorateresa@gmail.com"
+    },
+    "employed": {
+      "contactname": {
+        "-O1uAIAGguFXmjv5bVa5": "N/a"
+      },
+      "empadd": {
+        "-O1uAIAGguFXmjv5bVa4": "N/a"
+      },
+      "empname": {
+        "-O1uAIAFqd1HabrT0lPy": "N/a"
+      }
+    },
+    "gender": {
+      "-O1uAIAAuDDAhNfSS0Ix": "male"
+    },
+    "guardian": {
+      "contactadd": {
+        "-O1uAIAH9z24QLrmUAoR": "#1 ABCD St. Quezon City"
+      },
+      "contactno": {
+        "-O1uAIAH9z24QLrmUAoS": "0910987654321"
+      },
+      "relationship": {
+        "-O1uAIAH9z24QLrmUAoQ": "parent"
+      }
+    },
+    "height": {
+      "-O1uAIADw00ymn1KSd1H": "165"
+    },
+    "name": {
+      "-O1uAIA7dnMAqmj-KGO-": "Teresa, Maria Leonora"
+    },
+    "program": {
+      "-O1uAIAB_JXAvxtCuJ25": "Bachelor of Science in Computer Science"
+    },
+    "provincialadd": {
+      "-O1uAIADw00ymn1KSd1G": "Metro Manila"
+    },
+    "religion": {
+      "-O1uAIAFqd1HabrT0lPx": "catholic"
+    },
+    "section": {
+      "-O1uAIAB_JXAvxtCuJ27": "4"
+    },
+    "telephone": {
+      "-O1uAIAEouP1otB_gNr8": "0912345678910"
+    },
+    "weight": {
+      "-O1uAIAEouP1otB_gNr6": "57"
+    },
+    "year": {
+      "-O1uAIAB_JXAvxtCuJ26": "3rd"
+    }
+  }
+}
