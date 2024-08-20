@@ -328,7 +328,7 @@ const submitButton1 = document.getElementById("submitform")
 
 /*
 const firebaseConfig = {
-    apiKey: "AIzaSyCy_xTkDWGIMD-rHOxQIskxjg46BdthOII",
+    apiKey: "",
     authDomain: "webdevform.firebaseapp.com",
     projectId: "webdevform",
     storageBucket: "webdevform.appspot.com",
@@ -340,7 +340,6 @@ const firebaseConfig = {
 
  
 
-  
 
 
 form.addEventListener("submit",(e)=>{
